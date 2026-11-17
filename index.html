@@ -10,10 +10,14 @@
 <meta name="author" content="YOUR NAME">
 
 <!-- this is the title that shows up on the tab of a web browser -->
-<title>Nick's Current Favorites</title>
+<title>My Current Favorite Songs</title>
 
 <style>
-body { font-family: Arial, sans-serif; margin: 0; padding: 0 20px; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+}
 h1   { text-align: center; }
 h2   { text-align: center; }
 a    { color: inherit; }
@@ -43,52 +47,52 @@ ul {
 
 <a id="top"></a>
 
-<h1>Professor Correia's Podcasts</h1>
-<p style="text-align: center;">Email me at correia@gonzaga.edu for episode suggestions</p>
+<h1>My Current Favorite Songs</h1>
+<p style="text-align: center;">Click a picture to jump to its song</p>
 
 <!-- ===================== MENU OF IMAGES ===================== -->
 <!-- Click an image and it jumps down to its video.            -->
-<!-- MIND works. Use it as your model.                         -->
+<!-- The href="#..." must match the id="..." of a section below. -->
 <ul>
 
-    <li><h2>For the Mind</h2></li>
-    <li><a href="#findingmastery"><img src="gervais.jpg" width="400" height="400" alt="Michael Gervais"></a></li>
+    <li><h2>Coming Home &ndash; Leon Bridges</h2></li>
+    <li><a href="#song1"><img src="https://img.youtube.com/vi/1xdVwJx5naI/hqdefault.jpg" width="400" height="300" alt="Coming Home by Leon Bridges"></a></li>
 
-    <li><h2>For the Body</h2></li>
-    <li><a href="#huberman-lab"><img src="Huberman.jpg" width="400" height="400" alt="Andrew Huberman"></a></li>
+    <li><h2>WITH ME &ndash; LILLE &amp; K.ONE</h2></li>
+    <li><a href="#song2"><img src="https://img.youtube.com/vi/QI3OxQtWR9E/hqdefault.jpg" width="400" height="300" alt="WITH ME by LILLE and K.ONE"></a></li>
 
-    <li><h2>For the Craft</h2></li>
-    <li><a href="#fridman"><img src="fridman.jpg" width="400" height="400" alt="Lex Fridman"></a></li>
+    <li><h2>Why Don't We Fall in Love &ndash; Amerie</h2></li>
+    <li><a href="#song3"><img src="https://img.youtube.com/vi/DloCV_gHDqs/hqdefault.jpg" width="400" height="300" alt="Why Don't We Fall in Love by Amerie"></a></li>
 
 </ul>
 
 <!-- ===================== VIDEO SECTIONS ===================== -->
 
-<!-- MIND: Finding Mastery -->
-<a id="findingmastery"></a>
-<a href="https://www.youtube.com/@FindingMastery">
-<h2>Finding Mastery</h2>
+<!-- SONG 1 -->
+<a id="song1"></a>
+<a href="https://www.youtube.com/watch?v=1xdVwJx5naI">
+<h2>Coming Home &ndash; Leon Bridges</h2>
 </a>
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4L98ssI5Vxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xdVwJx5naI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
-<!-- BODY: Huberman Lab -->
-<a id="huberman"></a>
-<a href="https://www.youtube.com/@hubermanlab">
-<h2>Huberman Lab</h2>
+<!-- SONG 2 -->
+<a id="song2"></a>
+<a href="https://www.youtube.com/watch?v=QI3OxQtWR9E">
+<h2>WITH ME &ndash; LILLE &amp; K.ONE</h2>
 </a>
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pq6WHJzOkno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QI3OxQtWR9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
-<!-- CRAFT: Lex Fridman Podcast -->
-<a id="fridman"></a>
-<a href="https://www.youtube.com/@lexfridman">
-<h2>Lex Fridman Podcast</h2>
+<!-- SONG 3 -->
+<a id="song3"></a>
+<a href="https://www.youtube.com/watch?v=DloCV_gHDqs">
+<h2>Why Don't We Fall in Love &ndash; Amerie</h2>
 </a>
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=kFQUDCgMjRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DloCV_gHDqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
 <p style="font-size: small; text-align: center;"><a href="#top">To top</a></p>
@@ -110,9 +114,9 @@ ul {
 
 <!-- ===================== DARK MODE SCRIPT ===================== -->
 <script>
-  // 1. Your two colors. Change these to your own.
-  var lightColor = "#f2f2f2";
-  var darkColor  = "#222222";
+  // 1. Your two colors (light gray and dark gray).
+  var lightColor = "#d9d9d9";
+  var darkColor  = "#333333";
 
   // 2. Which mode the page is in right now
   var dark = false;
